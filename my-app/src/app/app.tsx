@@ -1,14 +1,15 @@
+import { Navigation } from "components/layouts/navigation";
+import { Splash } from "components/layouts/splash";
+
 const App = (): JSX.Element => {
   return (
     <main className="bg-lime-400">
-      <header>
-        I am a header
-      </header>
+      <Navigation />
 
-      <section>
-        I am a section
-      </section>
+
       
+      <Splash />
+
       <footer className="">
         And I, a footer
       </footer>
